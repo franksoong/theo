@@ -1,5 +1,7 @@
 <?php
 
+// soong test git branch2
+
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 
