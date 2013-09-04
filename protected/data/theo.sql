@@ -10,6 +10,8 @@ use theo;
 
 -- mysqldump -ubugs -pbugs theo.library >g:\tmp.sql
 
+-- mysqldump -ubugs -pbugs theo.library >g:\tmp.sql
+
 
 CREATE TABLE IF NOT EXISTS `library` (
   `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
