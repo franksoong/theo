@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+
+#header{
+	background: linear-gradient(to bottom, #334D67 0px, #2B455F 100%) repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px 0 #51677E inset, 0 -1px 0 #364E67 inset;
+    left: 0;
+    top: 0;
+    min-height: 32px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+	color:white;
+}
+
+.tcontainer {
+    width: 90%;
+    background: none repeat scroll 0 center transparent;
+    margin: auto;
+    padding: 35px 0 10px;
+    position: relative;
+}
+
+.span-19 {
+	width: 85%;
+}
+
+.span-5 {
+	width: 10%;
+}
+
+/*
+.banner {
+	background: url("../../images/icons/happy-icon.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    line-height: 50px;
+    margin: 0 0 0 10px;
+    width: 100px;
+}
+*/
+
+
+#logo {
+    font-size: 150%;
+    padding: 5px 20px;
+}
+
+.logo_img {
+    width: 30px;
+	height:30px;
+	margin: -3px 10px -8px 0;
+}
+
+.banner {
+    cursor: pointer;
+    margin: 0 0 0 10px;
+    width: 50px;
+	height:50px;
+}
+
+

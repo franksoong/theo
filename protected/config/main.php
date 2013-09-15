@@ -11,6 +11,10 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'OUTIMEON',
+	
+	'defaultController'=>'library',
+		
+	// 'homeUrl'=>'/theo/library',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -39,7 +43,7 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
+		/**/
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -47,7 +51,7 @@ return array(
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),*/
+		),
 		
         /*
 		'db'=>array(
